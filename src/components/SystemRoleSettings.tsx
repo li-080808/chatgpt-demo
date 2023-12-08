@@ -55,7 +55,7 @@ export default (props: Props) => {
             <IconEnv />
             <span>系统预设:</span>
           </div>
-          <p class="my-2 leading-normal text-sm op-50 dark:op-60">Gently instruct the assistant and set the behavior of the assistant.</p>
+          <p class="my-2 leading-normal text-sm op-50 dark:op-60">设定聊天机器人的行为</p>
           <div>
             <textarea
               ref={systemInputRef!}
@@ -68,7 +68,7 @@ export default (props: Props) => {
           </div>
           <div class="w-full fi fb">
             <button onClick={handleButtonClick} gen-slate-btn>
-              设置
+              OK
             </button>
             <div class="w-full ml-2">
               <SettingsSlider
